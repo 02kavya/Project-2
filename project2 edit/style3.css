@@ -1,0 +1,41 @@
+body {
+    background-color: #180161;
+    color: white;
+    font-family: sans-serif;
+}
+div {
+    position: fixed;
+    left: 0%;
+    right: 0%;
+}
+a {
+    text-decoration: none;
+}
+.head1 {
+    width: 100vw;
+    height: 7.5vh;
+    font-size: 2vw;
+    background-color: #4f1787;
+    top:0%;
+    padding-top: 15px;
+}
+.head2 {
+    width: 100vw;
+    height: 2.8vh;
+    font-size: 1.2vw;
+    font-weight: bold;
+    background-color: gold;
+    display: flex;
+    justify-content: space-evenly;
+    top:7.5%;
+}
+span.main1 {
+    position: fixed;
+    background-color: aliceblue;
+    width: 400px;
+    height: 400px;
+    font-size: 1.5vw;
+    margin:10px 0px 10px 150px;
+    top:20%;
+    border-radius: 25px;
+}
