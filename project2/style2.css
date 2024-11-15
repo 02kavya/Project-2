@@ -1,0 +1,84 @@
+body {
+    background-color: #180161;
+    color: white;
+    font-family: sans-serif;
+}
+div {
+    position: fixed;
+    left: 0%;
+    right: 0%;
+}
+a {
+    text-decoration: none;
+}
+.head1 {
+    width: 100vw;
+    height: 7.5vh;
+    font-size: 35px;
+    background-color: #4f1787;
+    top:0%;
+    padding-top: 15px;
+}
+.head2 {
+    width: 100vw;
+    height: 2.8vh;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gold;
+    display: flex;
+    justify-content: space-evenly;
+    top:7.5%;
+}
+.main1 {
+    width: 100vw;
+    height: 3vh;
+    font-size: 25px;
+    margin-top: 10px;
+    top:10.3%;
+    padding-left: 40%;
+}
+.main2 {
+    background-color: rgba(240, 248, 255,0.9);
+    width: 80vw;
+    height: 25vh;
+    top:25%;
+    margin-left: 10%;
+    border: 2px solid gold;
+    border-radius: 25px;
+    box-shadow: 0px 0px 32px gold;
+    color: #4f1787;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 32px;
+    padding: 10px 10px 0px 10px;
+}
+select {
+    height: 100%;
+    width:10%;
+    color: #4f1787;
+    font-size: 22px;
+    border: 2px solid gold;
+    border-radius: 25px;
+    padding-left: 15px;
+    margin-left: 20px;
+}
+select:hover {
+    background-color: #4f1787;
+    color: gold;
+    transition: all 0.25s ease-in-out;
+}
+button {
+    height: 100%;
+    font-size: 22px;
+    border: 2px solid gold;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 20px;
+    color: #4f1787;
+}
+button:hover {
+    background-color: #4f1787;
+    color: gold;
+    transition: all 0.25s ease-in-out;
+}
